@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Echoes in the Static</title>
+    <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+    <div id="main">
+        <h1>Echoes in the Static</h1>
+        <p><strong>Author:</strong> <span id="author"></span></p>
+        
+        <!-- Link to the book trailer page -->
+        <p><a href="book_trailer.html">Watch Book Trailer</a></p>
+        
+        <!-- Buy Me a Coffee link -->
+        <p><a href="https://buymeacoffee.com/gguadiana100" class="coffee-button" target="_blank">☕ Buy Me a Coffee</a></p>
+        
+        <!-- Table of Contents -->
+        <h2>Table of Contents</h2>
+        <ul id="table-of-contents" class="toc"></ul> <!-- Dynamically populated list -->
+        
+        <div id="chapter-title"></div>
+        <div id="thread-content"></div>
+        <div id="comments-section"></div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/js-yaml/4.1.0/js-yaml.min.js"></script>
+    <script src="scripts/render.js"></script>
+</body>
+</html>

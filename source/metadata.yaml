@@ -1,0 +1,6 @@
+title: "Echoes in the Static"
+author: "Gilberto Guadiana"
+default_upvotes: 1  # Default upvote value for comments
+chapters:
+  - title: "Chapter 1: Did the World End, or Did They Just Leave Me Behind?"
+    file: "chapter1.yaml"
