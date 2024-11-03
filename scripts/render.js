@@ -11,6 +11,7 @@ async function loadMetadata() {
     document.title = metadata.title;
     document.getElementById('main').querySelector('h1').innerText = metadata.title;
     document.getElementById('author').innerText = metadata.author;
+    document.getElementById('synopsis').innerText = metadata.synopsis;
     
     // Generate table of contents
     const toc = document.getElementById('table-of-contents');
@@ -32,6 +33,12 @@ async function loadChapter(chapterFile, defaultUpvotes, chapterIndex) {
     document.getElementById('chapter-title').innerHTML = `<h2 id="chapter-${chapterIndex}">${chapter.title}</h2>`;
     renderThread(chapter.thread);
     renderComments(chapter.comments, defaultUpvotes);
+}
+
+// Load synopsis for book_trailer.html
+async function loadSynopsis() {
+    const metadata = await loadYAML('source/metadata.yaml');
+    document.getElementById('synopsis').innerText = metadata.synopsis;
 }
 
 function renderThread(thread) {

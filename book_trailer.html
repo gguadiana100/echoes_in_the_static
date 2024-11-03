@@ -16,8 +16,18 @@
             Your browser does not support the video tag.
         </video>
 
+        <!-- Synopsis Section -->
+        <p id="synopsis" class="synopsis"></p>
+
         <!-- Back link to return to the main page -->
         <p><a href="index.html">Back to Main Page</a></p>
     </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/js-yaml/4.1.0/js-yaml.min.js"></script>
+    <script src="scripts/render.js"></script>
+    <script>
+        // Load only the synopsis on this page
+        loadSynopsis();
+    </script>
 </body>
 </html>

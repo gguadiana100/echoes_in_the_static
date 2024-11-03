@@ -1,6 +1,8 @@
 title: "Echoes in the Static"
 author: "Gilberto Guadiana"
 default_upvotes: 1  # Default upvote value for comments
+synopsis: |
+  In *Echoes in the Static*, Mark Evans wakes up to a world inexplicably emptied of sound and life. His alarm didn’t go off, his phone won’t connect, and the city around him lies eerily still. Desperate for answers, he turns to Reddit, posting his story on r/conspiracy in hopes of finding anyone else who’s still out there. Cryptic replies trickle in—strangers warning him about “The Silence,” advising him to keep moving and to never trust what he hears… or remembers. As Mark pieces together fragments of his reality, he realizes he may be part of a larger, sinister experiment where he’s both the last witness and the primary subject. In a world filled with static, the only thing more chilling than the silence itself are the echoes of secrets lurking within it.
 chapters:
   - title: "Chapter 1: Did the World End, or Did They Just Leave Me Behind?"
     file: "chapter1.yaml"
